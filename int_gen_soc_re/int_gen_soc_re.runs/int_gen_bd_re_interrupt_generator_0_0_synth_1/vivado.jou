@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Mar 29 19:22:08 2026
+# Process ID: 18332
+# Current directory: C:/Users/ER250/OneDrive/Documents/ECE520_SOC/ECE520_SandBox/int_gen_soc_re/int_gen_soc_re.runs/int_gen_bd_re_interrupt_generator_0_0_synth_1
+# Command line: vivado.exe -log int_gen_bd_re_interrupt_generator_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source int_gen_bd_re_interrupt_generator_0_0.tcl
+# Log file: C:/Users/ER250/OneDrive/Documents/ECE520_SOC/ECE520_SandBox/int_gen_soc_re/int_gen_soc_re.runs/int_gen_bd_re_interrupt_generator_0_0_synth_1/int_gen_bd_re_interrupt_generator_0_0.vds
+# Journal file: C:/Users/ER250/OneDrive/Documents/ECE520_SOC/ECE520_SandBox/int_gen_soc_re/int_gen_soc_re.runs/int_gen_bd_re_interrupt_generator_0_0_synth_1\vivado.jou
+# Running On: Daddy_RodrigoLT, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 14554 MB
+#-----------------------------------------------------------
+source int_gen_bd_re_interrupt_generator_0_0.tcl -notrace

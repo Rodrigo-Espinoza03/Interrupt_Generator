@@ -1,0 +1,29 @@
+09:07:12 **** Build of configuration Debug for project int_gen_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ER250/OneDrive/Documents/ECE520_SOC/ECE520_SandBox/int_gen_soc_re/int_gen_soc_vitis/int_gen_plat/export/int_gen_plat/sw/int_gen_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:171:10: warning: unused variable 'cmd' [-Wunused-variable]
+  171 |     char cmd;
+      |          ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: int_gen_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ER250/OneDrive/Documents/ECE520_SOC/ECE520_SandBox/int_gen_soc_re/int_gen_soc_vitis/int_gen_plat/export/int_gen_plat/sw/int_gen_plat/standalone_domain/bsplib/lib -o "int_gen_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: int_gen_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size int_gen_app.elf  |tee "int_gen_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27719	   1920	  22616	  52255	   cc1f	int_gen_app.elf
+'Finished building: int_gen_app.elf.size'
+' '
+
+09:07:14 Build Finished (took 2s.415ms)
+
